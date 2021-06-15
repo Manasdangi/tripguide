@@ -1,0 +1,329 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url('img_girl.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+}
+.heading{
+margin-top: 3%;
+color: white;
+font-size: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+text-align: center;
+margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+justify-content: space-around;
+}
+.card{
+    background-image: url('https://cdn.hipwallpaper.com/i/61/34/U9Fk4Z.jpg');
+    width:390px;
+    height:440px;
+    margin: 15px;
+color:rgb(255, 255, 255);
+}
+.card-text{
+    font-size: 17px;
+    margin: 2px;
+    line-height: 16px;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+letter-spacing: 2px;
+}
+
+.mySlides {display:none;}
+.collab{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.sliderimage{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.desc{
+  color: rgb(47, 33, 33);
+text-align: center;
+font-size: 15px;
+height: 290px;
+width: 240px;
+background: none;
+background-color: rgb(250, 238, 238);
+border-top-right-radius: 10px;
+border-bottom-right-radius:10px ;
+}
+img {vertical-align: middle;}
+
+button{
+    background:rgb(43, 77, 122);
+    border-radius: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    margin: 8px;
+    border: none;
+    margin-top: 9px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .3;
+}
+
+
+
+  .placedesc{
+    font-size: 16px;
+    color: white;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+  .placetovisit,.connectivityhead,.reviewhead,.maphead,.viewhotelhead{
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+   letter-spacing: 2px;
+   background-color: rgb(143, 134, 134);
+   width: 70%;
+   margin: auto;
+   margin-top:20px ;
+   margin-bottom: 20px;
+    }
+  .placetovisithead{
+      text-align: center;
+      color: rgb(221, 210, 210);
+      font-size: 20px;
+      text-decoration: underline;
+      width: 30%;
+      margin: auto;
+      border-radius: 2px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .placetovisitdesc,.viewhoteldesc,.connectivitydesc{
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      width: 70%;
+      margin: auto;
+  }
+
+
+.reviewdesc{
+  color:white;
+text-align: center;
+line-height: 26px;
+width: 70%;
+ margin: auto;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.reviewtag{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px;
+}
+
+
+
+.mapdesc{
+  margin: 10px;
+  width: 70%;
+padding-bottom: 150px;
+  margin: auto;
+}
+iframe{
+  border-radius: 5px;
+
+
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #3f3b3b;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ff11c4;
+  color: white;
+}
+
+.marker{
+  font-size: 21x;
+}
+
+.fa-map-marker{
+  color: rgb(86, 121, 236);
+  font-size: 20px;
+  margin-right: 0px;
+  padding: 0;
+}
+.state{
+  margin-left: 9px;
+  padding: 0;
+  color: black;
+  font-size: 17px;
+  font-weight: bolder;
+
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  text-align: center;
+  height: 100px;
+}
+.author{
+  color: rgb(191, 194, 197);
+  font-size: 25px;
+  font-weight:lighter;
+  font-family: fantasy;
+letter-spacing: 4px;
+}
+
+.filterDiv {
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+justify-content: space-around;
+}
+
+
+
+
+#select{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#myBtnContainer{
+  text-align: center;
+}
+.btn.active {
+  background-color: #666;
+  color: rgb(255, 255, 255);
+}
+h2{
+  font-weight: bold;
+}
