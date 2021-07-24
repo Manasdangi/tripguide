@@ -209,7 +209,7 @@ fetch("https://corona-virus-world-and-india-data.p.rapidapi.com/api_india", {
 .then(response => response.json())
 .then(data=>{
 
-//  console.log(data.state_wise.Kerala.district.Idukki.active);
+
 var stateactivecase=data["state_wise"]["West Bengal"].active;
 var districtactivecase=data["state_wise"]["West Bengal"].district.Darjeeling.active;
 coviddata1.innerHTML=stateactivecase;
